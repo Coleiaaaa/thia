@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "My personal webpage new.css">
+</head>
+<body>
+<body style="background-color:#EBCCFF;">
+<div class="header">
+<h2 style = "color: white">WHAT LIES BENEATH THE FLOWERS</h2>
+</div>
+<div class="topnav">
+<a href="https://www.facebook.com/althianicole.patalinghug?mibextid=ZbWKwL">Facebook</a>
+<a href="https://www.instagram.com/coleiaaaa/">Instagram</a>
+<a href="https://www.youtube.com/@TaylorSwift">Youtube</a>
+<a href="https://open.spotify.com/playlist/0M0tUYeVdhLUrxkNM4IWyH">Spotify</a>
+</div>
+<div class="row">
+<div class="leftcolumn">
+<div class="card">
+<h2>ALTHIA NICOLE P.</h2>
+<h5>November 16, 2006 &nbsp - &nbsp Costa Leona</h5>
+<div class="meimg" style="height:350px;"></div>
+<p>What am I?</p>
+<p>A flower that's waiting to bloom yet scared to do everything it takes to bloom. I'm someone surrounded with flowers shining and blooming the entire garden. Because of this, the flower that I'am can't properly bloom as I'm stuck in a garden with better flowers fitting each other. Although I'm similar to them, however, I always become the lesser when being beside them. In spite of this, I'am a flower who sees the other flowers as an inspiration to become better and to blossom like them.</p>  
+</div>
+<div class="card">
+<h2>A quick tour to my life.</h2>
+<!-- Container for the image gallery -->
+<div class="container">
+<!-- Full-width images with number text -->
+<div class="mySlides">
+<div class="numbertext">1 / 6</div>
+<img src="mpw2.png" style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">2 / 6</div>
+<img src="mpw3.png" style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">3 / 6</div>
+<img src="mpw4.png" style="width:100%">
+</div>
+<div class="mySlides">
+<div class="numbertext">4 / 6</div>
+<img src="mpw5.png" style="width:100%">
+</div>
+<!-- Next and previous buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!-- Image text -->
+<div class="caption-container">
+<p id="caption"></p>
+</div>
+<!-- Thumbnail images -->
+<div class="row">
+<div class="column">
+<img class="demo cursor" src="mpw2.png" style="width:100%" onclick="currentSlide(1)" alt="Foodies">
+</div>
+<div class="column">
+<img class="demo cursor" src="mpw3.png" style="width:100%" onclick="currentSlide(2)" alt="Hobbies">
+</div>
+<div class="column">
+<img class="demo cursor" src="mpw4.png" style="width:100%" onclick="currentSlide(3)" alt="Random pics">
+</div>
+<div class="column">
+<img class="demo cursor" src="mpw5.png" style="width:100%" onclick="currentSlide(4)" alt="School girl">
+</div>
+</div>
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("demo");
+let captionText = document.getElementById("caption");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<p>What's inside life currently</p>
+<p>Nothing much has happened to me that I would consider as remarkable part of my life. But to the past months that I have been attending school, this year is by far a memorable school year for me. It is my last year of junir high school which means, after this, I would already be apart with the people I have been together from the start of high school. Other than that, a lot of trivial things also happened to me such as catching feeling, I don't know why but this school year I have been liking more people than I would before, haha high school life. Although I would consider all of them as infatuation only, that's why I would forget about them easily haha. Anyways, hoping that I would end the school year successfully with a toga and certificate beside me.</p>
+<br>
+<h5><i>'Cause you could be the one that I love</i>
+<br><i>I could be the one that you dream of</i>
+<br><i>Message in a bottle is all I can do</i>
+<br>Standin' here, hopin' it gets to you</i>
+<br><br> - Taylor Swift</h5></p>
+</div>
+<div class="card">
+<img src="mpw lesss.png" style = "width:1010px">
+<br><br><br><br><br>
+<h7><i>“Breathe. Let go. And remind yourself that this very moment is the only one you know you have for sure.”</i>
+<br><br> - Oprah Winfrey</h7></p>
+<br><br><br><br><br>
+</div>
+</div>
+<div class="rightcolumn">
+<div class="card">
+<h5>note.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .</h5>
+<img src="costa.png" style = "width:220px">
+<h2>Travel</h2>
+<p>• I have been longing to travel to different countries, but the one that interests me the most is traveling to Switzerland. I would like to villages and high alps of switzerland, as well as their all clear lakes.<br>
+<h2>Dream</h2>
+• Becoming an Architect is a dream I have discovered ever since I stepped in high school. It is something that came to me unexpectedly and is something I wished to become true. One of the reasons I'm doing my best (not really) is because of this dream. <br>
+<h2>Music</h2>
+• I don't listen to a specific genre of music, I only listen to those that I came to like ever since I first heard about it. Taylor Swift and SZA are the artists that I usually listen the past days(?), probably months
+<h2>Other Information</h2>
+• My home is filled with animals. My family have 3 cats, 3 dogs, fishes, a rabbit, a chicken, and tons of birds.
+</p>
+</div>
+<div class="card">
+<h2>luvies</h2>
+<img src="enha mpw.jpg" style = "width:220px">
+<img src="venus mpw.jpg" style = "width:220px">
+<img src="miab mpw.jpg" style = "width:220px">
+<img src="oc mpw.jpg" style = "width:220px">
+<img src="coque.jpg" style = "width:220px">
+</div>
+</div>
+</div>
+<div class="footer">
+<h6>Beneath the flowers are the roots that anchors the whole flower.</h6>
+</div>
+</body>
+</html>
